@@ -1,4 +1,10 @@
-var num1 = 12;
-var num2 = 13;
-var sum = num1 + num2;
-console.log(sum);
+//@ts-ignore
+var nm1 = 12;
+//@ts-ignore
+var nm2 = 13;
+// let sum : number = num1 + num2
+//@ts-ignore
+var sumFunc = function (n1, n2) {
+    return n1 + n2;
+};
+console.log(sumFunc(nm1, nm2));
