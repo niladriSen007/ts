@@ -1,6 +1,13 @@
-let num1 : number = 12
-let num2 : number = 13
+//@ts-ignore
+let nm1 : number = 12
+//@ts-ignore
+let nm2 : number = 13
 
-let sum : number = num1 + num2
+// let sum : number = num1 + num2
 
-console.log(sum)
+//@ts-ignore
+const sumFunc  = (n1 : number , n2 : number) : num =>{
+    return n1 + n2
+}
+
+console.log(sumFunc(nm1,nm2))
